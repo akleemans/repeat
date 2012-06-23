@@ -6,15 +6,16 @@ The basic idea is to write your own scripts with a sequence of actions (= clicks
 
 It can be used for tasks which are exactly repeated each time, and I use it for putting emails in our order system at work (I'm lazy).
 
+
 ## Commands ##
 
 Scripts are saved in separate text files, and you can name them as you want. I name mine with the ending *.do*, simply for implying that the file contains some action commands.
 
 At the moment, there are three basic commands: `click`, `doubleclick` and `wait`. The first two expect positions on the screen, and the last takes a double value which represents the seconds to wait
 
-    click 250, 450
-    doubleclick 300, 300
-    wait 10.0
+    click 450, 525
+    doubleclick 575, 275
+    wait 7.0
 
 
 ## Usage ##
