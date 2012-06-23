@@ -7,36 +7,6 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-// Simulate a key press
-
-/*
-robot.keyPress(KeyEvent.VK_A);
-robot.keyRelease(KeyEvent.VK_A);
-*/
-
-// Get pixel colour
-
-/*
-try {
-    Robot robot = new Robot();
-
-    //
-    // The the pixel color information at 20, 20
-    //
-    Color color = robot.getPixelColor(20, 20);
-
-    //
-    // Print the RGB information of the pixel color
-    //
-    System.out.println("Red   = " + color.getRed());
-    System.out.println("Green = " + color.getGreen());
-    System.out.println("Blue  = " + color.getBlue());
-
-} catch (AWTException e) {
-    e.printStackTrace();
-}
-*/
-
 public class Main {
 
 	static Robot robot;
@@ -94,7 +64,6 @@ public class Main {
 		int loops = 0;
 		int pc = -1;
 		String[] command;
-		//String[] arg = new String[3];
 		
 		while (loops < maxLoops*program.size()) {
 			loops++;

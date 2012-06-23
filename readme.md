@@ -20,9 +20,9 @@ At the moment, there are three basic commands: `click`, `doubleclick` and `wait`
 ## Usage ##
 Just call 
 
-    java -jar script.do 5
+    java -jar repeat.jar sample.do 5
 
-to execute script.do 5 times. It should run on both Windows and Linux (tested: Ubuntu 12).
+to execute sample.do 5 times. It should run on both Windows and Linux (tested: Ubuntu 12).
 
 ## Features to add ##
  * virtual clipboard for copying and pasting text
