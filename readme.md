@@ -4,7 +4,7 @@ A Java program for executing very simple repeated tasks, mainly clicking on a ce
 
 The basic idea is to write your own scripts with a sequence of actions (= clicks and waiting). You can then specify the programm how many times to execute your script. An example for a script can be found in *sample.do*, but at the next section there's a small example too.
 
-It can be used for tasks which are exactly repeated each time, and I use it for putting emails in our order system at work (I'm lazy).
+It can be used for tasks which are repeated exactly the same each time, and I use it for putting emails in our order system at work (I'm lazy).
 
 ## Commands ##
 
